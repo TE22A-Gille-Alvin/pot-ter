@@ -57,19 +57,51 @@ img{
 main {
 display: grid;
 grid-template-columns: 1fr 1fr;
+
 }
+img{
+    min-width: 25vw;
+    min-height: auto;
+}
+p{
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
+header{
+    margin-bottom: 5vw;
+}
+button{
+    font-size: 30px;
+}
+
 }
 
 @media only screen and (max-width:
 640px) {
 
 header{
-    margin-bottom: 10vw;
+    margin-bottom: 15vw;
 }
 
 main{
     display: flex;
     flex-direction: column;
 }
+img{
+    min-width: 40vw;
+    min-height: auto;
+}
 
+p{
+    font-size: 25px;
+}
+
+button{
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
 }
